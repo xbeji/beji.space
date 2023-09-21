@@ -28,19 +28,17 @@ hoverChangeExperience(
   ".CBA",
   `As an Executive Team Member in the Accounting Club, I've played a key role in financial planning, event management, and promoting financial literacy. I'm committed to our club's growth and success in fostering financial education and networking opportunities for our members`,
   "Administrator",
-  "Accounting committee, Imam Abdulrahman bin Faisal University",
+  "Accounting Committee, Imam Abdulrahman bin Faisal University",
   "Sep 2023 - Present"
 );
 
-/*hoverChangeExperience(
-  ".contweb",
-  `Realizei o estágio na ContWeb, uma empresa de contabilidade. 
-  Onde pela primeira vez tive experiência com o React. Além do
-  desenvolvimento frontend criei os designs da nova plataforma da empresa.`,
-  "Developer frontend e UI Designer",
-  "ContWeb",
-  "Set 2021 - Nov 2021 (3 meses)"
-);*/
+hoverChangeExperience(
+  ".Innovationunit",
+  `As a Supervisor in our university's Innovation Unit, I've nurtured innovation, supported creative projects, and empowered our community to make a lasting impact.`,
+  "Supervisor",
+  "Innovation Unit, Imam Abdulrahman bin Faisal University",
+  "Sep 2023 - Present"
+);
 
 hoverChangeDescription(
   ".html",
