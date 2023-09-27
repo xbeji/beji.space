@@ -45,7 +45,7 @@ hoverChangeExperience(
   `As a Website Manager for Mostaqbli, I've fostered innovation, provided support for creative initiatives, and empowered our community to create a lasting influence.`,
   "Website Manager",
   "Mostaqbli",
-  "Jan 2022 - Present"
+  "Jan 2022 - July 2023"
 );
 
 hoverChangeDescription(
