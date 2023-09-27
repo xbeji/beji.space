@@ -40,6 +40,14 @@ hoverChangeExperience(
   "Sep 2023 - Present"
 );
 
+hoverChangeExperience(
+  ".Mostaqbli",
+  `As a Website Manager for Mostaqbli, I've fostered innovation, provided support for creative initiatives, and empowered our community to create a lasting influence.`,
+  "Website Manager",
+  "Mostaqbli",
+  "Jan 2022 - Present"
+);
+
 hoverChangeDescription(
   ".html",
   "HTML is a markup language, where we mark elements to define what information the page will display."
