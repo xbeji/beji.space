@@ -42,53 +42,30 @@ hoverChangeExperience(
 
 
 hoverChangeDescription(
-  ".html",
-  "HTML is a markup language, where we mark elements to define what information the page will display."
+  ".iau",
+  "Studying Bachelor of Business Administration at Imam Abdulrahman bin Faisal University."
 );
 hoverChangeDescription(
-  ".css",
-  "CSS is a stylesheet language made up of “layers”, created for the purpose of styling pages."
+  ".meta",
+  "Certified by META, in Front-End, and Social Media Marketing."
 );
 hoverChangeDescription(
-  ".js",
-  "JavaScript is a programming language that allows you to implement dynamic elements on web pages."
+  ".google",
+  "Certified by Google, in Project Management, UX Design, and Digital Marketing."
 );
 hoverChangeDescription(
-  ".sass",
-  "Sass is a CSS preprocessor that adds some features that are not available natively."
+  ".grad",
+  "Graduated from Qatif Secondary School with 100% GPA."
 );
 hoverChangeDescription(
-  ".react",
-  "React is a JavaScript library focused on creating user interfaces in a componetized way."
+  ".sdaia",
+  "Certified by SDAIA, in Artificial intelligence (Python)."
 );
 hoverChangeDescription(
-  ".next",
-  "Next.js is a web framework that enables functionality such as server-side rendering and generating React-based static web sites."
+  ".pmp",
+  "Certified by PMI, in Project Management."
 );
-hoverChangeDescription(
-  ".styled",
-  "styled-components is a library that uses the concept of CSS-in-JS, that is, it allows us to write CSS code inside Javascript."
-);
-hoverChangeDescription(
-  ".tailwind",
-  "Tailwind CSS is a CSS framework that provides us with utility classes for the purpose of styling pages."
-);
-hoverChangeDescription(
-  ".typescript",
-  "TypeScript is a superset of JavaScript that includes features that are not present in the language natively, in addition to making it static."
-);
-hoverChangeDescription(
-  ".radix",
-  "Radix is ​​a library that provides accessible, styleless components for creating React applications."
-);
-hoverChangeDescription(
-  ".cypress",
-  "Cypress is a framework for end-to-end test automation, which currently uses the JavaScript language."
-);
-hoverChangeDescription(
-  ".storybook",
-  "Storybook is a tool that aims to document and test application components."
-);
+
 
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
