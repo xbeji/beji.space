@@ -42,7 +42,7 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".fireg",
-  `As a Project Manager at Fireguard, I used my skills in strategic planning, project management, and leadership to foster our team's growth and create networking opportunities for our members.`,
+  `As a Project Manager at FireGuard, I used my skills in strategic planning, project management, and leadership to foster our team's growth and create networking opportunities for our members.`,
   "Project Management",
   "FireGuard",
   "Sep 2023 - Present"
