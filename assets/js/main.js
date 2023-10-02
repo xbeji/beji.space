@@ -72,6 +72,10 @@ hoverChangeDescription(
   ".pmp",
   "Certified by PMI, in Project Management."
 );
+hoverChangeDescription(
+  ".fia",
+  "Certified by Fundação Instituto de Administração (Administration Institute Foundation), in Innovation Management."
+);
 
 
 window.addEventListener('contextmenu', function (e) {
