@@ -76,7 +76,10 @@ hoverChangeDescription(
   ".fia",
   "Certified by Fundação Instituto de Administração (Administration Institute Foundation), in Innovation Management."
 );
-
+hoverChangeDescription(
+  ".uom",
+  "Certified by The University of Maryland, in Developing Inoovative Ideas for Product Leaders."
+);
 
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
