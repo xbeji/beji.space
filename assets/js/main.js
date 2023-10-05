@@ -80,7 +80,10 @@ hoverChangeDescription(
   ".uom",
   "Certified by The University of Maryland, in Developing Inoovative Ideas for Product Leaders."
 );
-
+hoverChangeDescription(
+  ".kld",
+  "Certified by AlFaisal University, in Innovation Models."
+);
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
 });

@@ -4,8 +4,8 @@
 		tspan { white-space:pre } 
 		.t0 { font-size: 230px;fill: #986dff;font-weight: 700;font-family: "AveriaSerifLibre-Bold", "Averia Serif Libre" } 
 	</style>
-	<text id="UOM" style="transform: matrix(1,0,0,1,289,364)" >
-		<tspan x="-278.7" y="0" class="t0">U</tspan><tspan  y="0" class="t0">O</tspan><tspan  y="0" class="t0">M
+	<text id="KLD" style="transform: matrix(1,0,0,1,289,364)" >
+		<tspan x="-236.8" y="0" class="t0">K</tspan><tspan  y="0" class="t0">L</tspan><tspan  y="0" class="t0">D
 </tspan>
 	</text>
 </svg>
