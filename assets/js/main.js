@@ -84,6 +84,11 @@ hoverChangeDescription(
   ".kld",
   "Certified by AlFaisal University, in Innovation Models."
 );
+hoverChangeDescription(
+  ".uos",
+  "Certified by The University of Macquarie, in Creating Innovation."
+);
+
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
 });
