@@ -88,7 +88,10 @@ hoverChangeDescription(
   ".uos",
   "Certified by The University of Macquarie, in Creating Innovation."
 );
-
+hoverChangeDescription(
+  ".dmi",
+  "Certified by The Digital Marketing Institute, in Digital Strategy and Business Opportunity."
+);
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
 });
