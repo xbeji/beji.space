@@ -90,7 +90,7 @@ hoverChangeDescription(
 );
 hoverChangeDescription(
   ".dmi",
-  "Certified by The Digital Marketing Institute, in Digital Strategy and Business Opportunity, and Digital Channel Planning and E- Commerce Strategy."
+  "Certified by The Digital Marketing Institute, in Digital Strategy and Business Opportunity, Digital Channel Planning and E- Commerce Strategy, and Digital Leadership and Digital Strategy Execution."
 );
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
