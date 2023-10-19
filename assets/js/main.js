@@ -78,7 +78,7 @@ hoverChangeDescription(
 );
 hoverChangeDescription(
   ".uom",
-  "Certified by The University of Maryland, in Developing Inoovative Ideas for Product Leaders."
+  "Certified by The University of Maryland, in Developing Innovative Ideas for Product Leaders."
 );
 hoverChangeDescription(
   ".kld",
