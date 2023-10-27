@@ -32,13 +32,13 @@ hoverChangeExperience(
   "Sep 2023 - Present"
 );
 
-/* hoverChangeExperience(
+hoverChangeExperience(
   ".Innovationunit",
   `As a Supervisor in our university's Innovation Unit, I've nurtured innovation, supported creative projects, and empowered our community to make a lasting impact.`,
   "Supervisor",
   "Innovation Unit, Imam Abdulrahman bin Faisal University",
   "Sep 2023 - Present"
-); */
+);
 
 hoverChangeExperience(
   ".fireg",
