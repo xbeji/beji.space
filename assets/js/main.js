@@ -48,6 +48,14 @@ hoverChangeExperience(
   "Sep 2023 - Oct 2023"
 );
 
+hoverChangeExperience(
+  ".youhealth",
+  `As a Project Manager at YouHealth, I played a pivotal role in the development and success of our AI-powered symptom assessment and medical advice application.`,
+  "Project Manager",
+  "YouHealth",
+  "Nov 2023 - Present"
+);
+
 hoverChangeDescription(
   ".iau",
   "Studying Bachelor of Business Administration at Imam Abdulrahman bin Faisal University."
