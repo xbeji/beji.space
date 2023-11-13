@@ -50,9 +50,9 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".youhealth",
-  `As a Business Analyst at Monitora, I played a pivotal role in the development and success of our AI-powered symptom assessment and medical advice application.`,
-  "Project Manager",
-  "Monitora",
+  `As a Business Analyst at DR.ME, I played a pivotal role in the development and success of our AI-powered symptom assessment and medical advice application.`,
+  "Business Analyst",
+  "DR.ME",
   "Nov 2023 - Present"
 );
 
