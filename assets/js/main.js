@@ -50,7 +50,7 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".youhealth",
-  `As a Business Analyst at صون, I played a pivotal role in the development and success of our - Project Idea Censored Until January.`,
+  `As a Business Analyst at صون, I played a pivotal role in the development and success of our... - Project Idea Censored Until January.`,
   "Business Analyst",
   "صون",
   "Nov 2023 - Present"
