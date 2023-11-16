@@ -100,6 +100,10 @@ hoverChangeDescription(
   ".dmi",
   "Certified by The Digital Marketing Institute, in Digital Strategy and Business Opportunity, Digital Channel Planning and E- Commerce Strategy, and Digital Leadership and Digital Strategy Execution."
 );
+hoverChangeDescription(
+  ".uomi",
+  "Certified by The University of Michigan, in Data Collection and Processing with Python, Python Basics, and Python Classes and Inheritance."
+);
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
 });
