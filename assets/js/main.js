@@ -69,10 +69,6 @@ hoverChangeDescription(
   "Certified by Google, in Project Management, UX Design, and Digital Marketing."
 );
 hoverChangeDescription(
-  ".grad",
-  "Graduated from Qatif Secondary School with 100% GPA."
-);
-hoverChangeDescription(
   ".sdaia",
   "Certified by SDAIA, in Artificial intelligence (Python)."
 );
