@@ -102,7 +102,7 @@ hoverChangeDescription(
 );
 hoverChangeDescription(
   ".dl",
-  "Certified by DeepLearning.AI, in AI and Public Health"
+  "Certified by DeepLearning.AI, in AI and Public Health, and AI and Disaster Management."
 );
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
