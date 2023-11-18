@@ -100,6 +100,10 @@ hoverChangeDescription(
   ".uomi",
   "Certified by The University of Michigan, in Data Collection and Processing with Python, Python Functions, Files, and Dictionaries, Python Basics, and Python Classes and Inheritance."
 );
+hoverChangeDescription(
+  ".dl",
+  "Certified by DeepLearning.AI, in AI and Public Health"
+);
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
 });
