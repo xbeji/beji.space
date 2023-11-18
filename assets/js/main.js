@@ -98,7 +98,7 @@ hoverChangeDescription(
 );
 hoverChangeDescription(
   ".uomi",
-  "Certified by The University of Michigan, in Data Collection and Processing with Python, Python Basics, and Python Classes and Inheritance."
+  "Certified by The University of Michigan, in Data Collection and Processing with Python, Python Functions, Files, and Dictionaries, Python Basics, and Python Classes and Inheritance."
 );
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
