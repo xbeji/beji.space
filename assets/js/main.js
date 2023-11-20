@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
       countdownElement.innerHTML = `
-        Graduation: ${days}d ${hours}h ${minutes}m ${seconds}s
+        My <span class="hg">Grad</span>uation: ${days}d ${hours}h ${minutes}m ${seconds}s
       `;
     } else {
       countdownElement.innerHTML = "Graduation has arrived!";

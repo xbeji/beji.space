@@ -5,3 +5,8 @@
     cursor: default;
   }
   
+  #countdown{font-size:2rem;line-height:160%;color:#9ca3af;font-weight:400}
+
+  .hg {
+    color: #986dff; /* You can change this to any color you prefer */
+  }
