@@ -104,6 +104,10 @@ hoverChangeDescription(
   ".dl",
   "Certified by DeepLearning.AI, in AI and Public Health, and AI and Disaster Management."
 );
+hoverChangeDescription(
+  ".uov",
+  "Certified by The University of Virginia, in Ethical Leadership Through Giving Voice to Values."
+);
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
 });
