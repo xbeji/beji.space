@@ -108,6 +108,10 @@ hoverChangeDescription(
   ".uov",
   "Certified by The University of Virginia, in Ethical Leadership Through Giving Voice to Values."
 );
+hoverChangeDescription(
+  ".uoas",
+  "Certified by The University of Sydney, in Innovation Through Design: Think, Make, Break, Repeat."
+);
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
 });
