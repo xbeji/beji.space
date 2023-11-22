@@ -112,6 +112,10 @@ hoverChangeDescription(
   ".uoas",
   "Certified by The University of Sydney, in Innovation Through Design: Think, Make, Break, Repeat."
 );
+hoverChangeDescription(
+  ".uocb",
+  "Certified by The University of Colorado Boulder, in Teamwork Skills: Communicating Effectively in Groups."
+);
 window.addEventListener('contextmenu', function (e) {
   e.preventDefault();
 });
