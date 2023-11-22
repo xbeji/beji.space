@@ -159,3 +159,24 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(updateCountdown, 1000);
   updateCountdown(); // Initial call to set the initial value
 });
+
+
+window.onload = function() {
+  var articles = document.getElementsByClassName('intervalCardReveal');
+  for (var i = 0; i < articles.length; i++) {
+      articles[i].addEventListener('mouseover', function() {
+          var image = this.getElementsByClassName('ei')[0]; 
+          image.dataset.originalSrc = image.src; 
+          var pathArray = image.src.split('/');
+          var lastSegment = pathArray.pop();
+          image.src = pathArray.join('/') + '/rl' + lastSegment; 
+      });
+      articles[i].addEventListener('mouseout', function() {
+          var image = this.getElementsByClassName('ei')[0]; 
+          image.src = image.dataset.originalSrc; 
+      });
+  }
+};
+
+
+
