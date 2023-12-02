@@ -52,7 +52,7 @@ hoverChangeExperience(
   ".youhealth",
   `As a Business Analyst at Sown, I played a pivotal role in the development and success of our... - Project Idea Censored Until January.`,
   "Business Analyst",
-  "صون",
+  "Sown",
   "Nov 2023 - Present"
 );
 
