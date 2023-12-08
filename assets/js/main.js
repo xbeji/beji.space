@@ -66,7 +66,7 @@ hoverChangeDescription(
 );
 hoverChangeDescription(
   ".google",
-  "Certified by Google, in Project Management, UX Design, and Digital Marketing."
+  "Certified by Google, in Project Management, UX Design, System Administration and IT Infrastructure Services, and Digital Marketing."
 );
 hoverChangeDescription(
   ".sdaia",
