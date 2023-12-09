@@ -48,13 +48,6 @@ hoverChangeExperience(
   "Sep 2023 - Oct 2023"
 );
 
-hoverChangeExperience(
-  ".youhealth",
-  `As a Business Analyst at souncare, I played a pivotal role in the development and success of our... - Project Idea Censored Until January.`,
-  "Business Analyst",
-  "souncare",
-  "Nov 2023 - Present"
-);
 
 hoverChangeDescription(
   ".iau",
