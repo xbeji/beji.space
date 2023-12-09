@@ -43,7 +43,7 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   ".youhealth",
-  `As a Business Analyst at souncare, I played a pivotal role in the development and success of our company.`,
+  `As a Business Analyst at SounCare, I played a pivotal role in the development and success of our company.`,
   "Business Analyst",
   "souncare",
   "Nov 2023 - Dec 2023"
