@@ -33,6 +33,21 @@ hoverChangeExperience(
 );
 
 
+hoverChangeExperience(
+  ".fireg",
+  `As a Project Manager at FireGuard, I used my skills in strategic planning, project management, and leadership to foster our team's growth and create networking opportunities for our members.`,
+  "Project Manager",
+  "FireGuard",
+  "Sep 2023 - Oct 2023"
+);
+
+hoverChangeExperience(
+  ".youhealth",
+  `As a Business Analyst at souncare, I played a pivotal role in the development and success of our company.`,
+  "Business Analyst",
+  "souncare",
+  "Nov 2023 - Dec 2023"
+);
 
 hoverChangeDescription(
   ".iau",
