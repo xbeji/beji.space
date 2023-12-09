@@ -27,7 +27,7 @@ hoverChangeExperience(
 hoverChangeExperience(
   ".CBA",
   `As an Executive in the Accounting Committee, I've played a key role in executive-level planning, event management, and promoting executive skills development. I'm committed to our club's growth and success in fostering leadership education and networking opportunities for our members.`,
-  "Administrator",
+  "Executive",
   "Accounting Committee, Imam Abdulrahman bin Faisal University",
   "Sep 2023 - Present"
 );
