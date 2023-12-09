@@ -32,21 +32,6 @@ hoverChangeExperience(
   "Sep 2023 - Present"
 );
 
-hoverChangeExperience(
-  ".Innovationunit",
-  `As a Supervisor in our university's Innovation Unit, I've nurtured innovation, supported creative projects, and empowered our community to make a lasting impact.`,
-  "Supervisor",
-  "Innovation Unit, Imam Abdulrahman bin Faisal University",
-  "Sep 2023 - Present"
-);
-
-hoverChangeExperience(
-  ".fireg",
-  `As a Project Manager at FireGuard, I used my skills in strategic planning, project management, and leadership to foster our team's growth and create networking opportunities for our members.`,
-  "Project Manager",
-  "FireGuard",
-  "Sep 2023 - Oct 2023"
-);
 
 
 hoverChangeDescription(
