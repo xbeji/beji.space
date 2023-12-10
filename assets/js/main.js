@@ -121,10 +121,10 @@ window.addEventListener('keydown', function (e) {
 // Add this to your existing main.js file or create a new one
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Set the date for graduation (June 2026)
+  // Set the date for graduation (For example: June 2026)
   const graduationDate = new Date("June 1, 2026 00:00:00").getTime();
 
-  // Update the countdown every second
+  // The code below updates the countdown every seocnd
   const countdownElement = document.getElementById("countdown");
 
   function updateCountdown() {
