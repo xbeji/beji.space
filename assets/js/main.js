@@ -173,3 +173,17 @@ window.onload = function() {
 
 
 
+$(window).mousemove(function(e) {
+  $(".cursor").css({
+    left: e.pageX,
+    top: e.pageY
+  });
+});
+
+$("a").on("mouseenter", function() {
+  $('.cursor').addClass("active");
+});
+
+$("a").on("mouseleave", function() {
+  $('.cursor').removeClass("active");
+});

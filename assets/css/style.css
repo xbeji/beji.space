@@ -1,7 +1,14 @@
+@media (hover: none) {
+  .cursor {
+    display: none !important;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  cursor: none;
   font-family: "Archivo";
 }
 ::selection {
@@ -44,8 +51,8 @@ body {
   font-family: "Archivo";
   background-color: #fff;
   overflow-x: hidden;
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="%23986dff" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
-}
+  /*cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="%23986dff" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
+*/}
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -399,6 +406,7 @@ header .grid-layout nav .nav-list li a:hover {
 #s-experience {
   background-color: #151515;
   color: #fff;
+  cursor: none;
   padding: 96px 48px;
 }
 @media screen and (max-width: 992px) {
@@ -875,7 +883,31 @@ footer div {
   border-bottom-right-radius: 10px;
 }
 
-
+/*
 .cc {
   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="%23000000" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
+}
+*/
+
+
+.cursor {
+  --size: 8px;
+  height: var(--size);
+  width: var(--size);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 99999999999;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  cursor: none; /* Move cursor: none here */
+}
+
+.cursor.cursor-bull {
+  background: #986dff;
+  transition: width 0.2s, height 0.2s;
+}
+
+
+.cursor-bull.active {
+  --size: 8px; /* Change this to a non-zero value */
 }
