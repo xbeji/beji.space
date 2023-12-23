@@ -274,9 +274,18 @@ header .grid-layout nav .nav-list li a:hover {
 #s-home .grid-layout #home #logo {
   position: absolute;
   right: -50px;
-  top: 50%;
-  transform: translate(0%, -50%);
+  animation: floatUpDown 3s ease-in-out infinite; /* Adjust the duration and timing function as needed */
 }
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0); /* Start and end position */
+  }
+  50% {
+    transform: translateY(-5px); /* Midway position, adjust the distance */
+  }
+}
+
 @media screen and (max-width: 1200px) {
   #s-home .grid-layout #home #logo {
     display: none;
