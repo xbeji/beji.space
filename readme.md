@@ -5,5 +5,5 @@ Welcome to my GitHub profile! I'm a results-driven professional with a passion f
 ## 📫 Let's Connect
 
 - 🌐 Explore my [portfolio website](https://beji.space) to see my recent projects.
-- 📧 Reach out via [email](mailto:jwad1425@gmail.com) to discuss collaboration opportunities.
--
+- 📧 Reach out via [email](mailto:contact@beji.space) to discuss collaboration opportunities.
+- 🌐 Check out my [linkedin](https://linkedin.com/in/jmahasnah).

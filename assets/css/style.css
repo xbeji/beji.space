@@ -318,7 +318,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 #s-about .grid-layout > div #creator-photo {
   width: 47%;
-  background-image: url("../image/foto-iuricode.svg");
+  background-image: url("../image/foto-beji.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -538,10 +538,10 @@ header .grid-layout nav .nav-list li a:hover {
   flex-wrap: wrap;
   text-align: left;
 }
-#s-projects .grid-layout #projects .teslabank {
+#s-projects .grid-layout #projects .mpp {
   border: 1px solid #e51d37;
 }
-#s-projects .grid-layout #projects .teslabank:hover {
+#s-projects .grid-layout #projects .mpp:hover {
   border: 1px solid #e51d37;
 }
 #s-projects .grid-layout #projects .naped {
@@ -592,10 +592,10 @@ header .grid-layout nav .nav-list li a:hover {
   line-height: 3.2rem;
   font-size: 1.8rem;
 }
-#s-projects .grid-layout #teslabank {
+#s-projects .grid-layout #mpp {
   color: #e51d37;
 }
-#s-projects .grid-layout #teslabank::after {
+#s-projects .grid-layout #mpp::after {
   background: linear-gradient(270deg, #e51d37 0%, #17161d 100%);
 }
 #s-projects .grid-layout #naped {
@@ -881,7 +881,7 @@ footer div {
 }
 
 .hg {
-  color: #986dff; /* You can change this to any color you prefer */
+  color: #986dff; 
 }
 
 .QurbCare {

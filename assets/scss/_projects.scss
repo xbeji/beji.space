@@ -13,7 +13,7 @@
       margin: $gap-3 0px;
       @include flexbox-between;
       text-align: left;
-      .teslabank {
+      .mpp {
         border: 1px solid #e51d37;
         &:hover {
           border: 1px solid #e51d37;
@@ -54,7 +54,7 @@
         }
       }
     }
-    #teslabank {
+    #mpp {
       color: #e51d37;
 
       &::after {

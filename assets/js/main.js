@@ -118,7 +118,6 @@ window.addEventListener('keydown', function (e) {
   e.preventDefault();
 });
 
-// Add this to your existing main.js file or create a new one
 
 document.addEventListener("DOMContentLoaded", function () {
   // Set the date for graduation (For example: June 2026)
