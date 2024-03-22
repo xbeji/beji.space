@@ -69,15 +69,21 @@ html {
 }
 header {
   padding: 0px 50px;
-  background: #111;
-  backdrop-filter: blur(24px);
+  background-color: rgba(58, 56, 56, 0.2);
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);  backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   border-bottom: 1px solid #101013;
   z-index: 999;
-  width: 100%;
+  width: 70%;
+  border-radius: 45px;
   position: fixed;
+  margin-top: 20px;
   top: 0;
   left: 0;
+  right: 0; /* Center horizontally */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
 }
 @media screen and (max-width: 992px) {
   header {
@@ -89,11 +95,12 @@ header .grid-layout nav {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  height: 100px;
+  height: 70px;
   padding: 0px 8px;
 }
 header .grid-layout nav img {
   width: 150px;
+  float: left;
 }
 header .grid-layout nav .nav-list {
   list-style: none;
@@ -538,31 +545,18 @@ header .grid-layout nav .nav-list li a:hover {
   flex-wrap: wrap;
   text-align: left;
 }
-#s-projects .grid-layout #projects .mpp {
-  border: 1px solid #e51d37;
-}
-#s-projects .grid-layout #projects .mpp:hover {
-  border: 1px solid #e51d37;
-}
-#s-projects .grid-layout #projects .naped {
-  border: 1px solid #00a3ff;
-}
-#s-projects .grid-layout #projects .naped:hover {
-  border: 1px solid #00a3ff;
-}
-#s-projects .grid-layout #projects .efront {
-  border: 1px solid #a6fb98;
-}
-#s-projects .grid-layout #projects .efront:hover {
-  border: 1px solid #a6fb98;
-}
+
 #s-projects .grid-layout #projects > article {
-  background-color: #151515;
+  background-color: rgba(58, 56, 56, 0.2);
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
   height: auto;
   padding: 32px;
   margin: 8px;
   flex-basis: calc(33% - 20px);
   flex-grow: 1;
+  border-radius: 8px;
   border: 1px solid #111;
   transition: 1s all ease;
   height: auto;
@@ -919,4 +913,9 @@ footer div {
 
 .cursor-bull.active {
   --size: 8px; /* Change this to a non-zero value */
+}
+
+.hi {
+  height: 50px;
+  width: 50px;
 }
