@@ -674,16 +674,16 @@ header .grid-layout nav .nav-list li a:hover {
   margin: 24px 0px;
 }
 #s-hobbies .grid-layout #services article {
-  background-color: #111;
-  height: auto;
+  background-color: rgba(58, 56, 56, 0.2);
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);  height: auto;
   padding: 32px;
   margin: 8px;
   flex-basis: calc(33% - 20px);
   flex-grow: 1;
-  border: 1px solid #111;
   transition: 1s all ease;
-  border: 1px solid #1f1f1f;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 #s-hobbies .grid-layout #services article:hover {
   border: 1px solid #986dff;
@@ -794,7 +794,6 @@ header .grid-layout nav .nav-list li a:hover {
   height: 130px;
   background-color: #151515;
   position: relative;
-  border: 1px solid #1f1f1f;
   border-radius: 4px;
   transition: 1s all ease;
 }
