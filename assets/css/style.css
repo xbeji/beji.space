@@ -150,6 +150,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 .nav-list.active {
   visibility: initial;
+  width: 100%;
   transition: 1s all ease;
 }
 @keyframes navLinkFade {
