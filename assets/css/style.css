@@ -105,6 +105,11 @@ header .grid-layout nav img {
 header .grid-layout nav .nav-list {
   list-style: none;
   display: flex;
+  background-color: rgba(58, 56, 56, 0.2);
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-radius: 15px;
   height: 500px;
 }
 header .grid-layout nav .nav-list li {
