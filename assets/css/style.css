@@ -105,6 +105,7 @@ header .grid-layout nav img {
 header .grid-layout nav .nav-list {
   list-style: none;
   display: flex;
+  height: 500px;
 }
 header .grid-layout nav .nav-list li {
   margin-left: 48px;
