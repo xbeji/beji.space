@@ -316,9 +316,9 @@ header .grid-layout nav .nav-list li a:hover {
 }
 #s-about .grid-layout > div {
   background-color: #151515;
-  border: 2px solid #1f1f1f;
   padding: 24px;
-  border-radius: 4px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -332,7 +332,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 #s-about .grid-layout > div #creator-photo {
   width: 47%;
-  background-image: url("../image/beji-foto.png");
+  background-image: url("../image/jwadam.JPG");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -413,9 +413,14 @@ header .grid-layout nav .nav-list li a:hover {
   }
 }
 #s-about .grid-layout > div div:nth-child(2) nav ul a {
-  background-color: #111;
-  border: 2px solid #1f1f1f;
-  border-radius: 6px;
+  background-color: rgba(58, 56, 56, 0.2);
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  transition: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
   padding: 16px;
 }
 @media screen and (max-width: 1200px) {
@@ -429,7 +434,6 @@ header .grid-layout nav .nav-list li a:hover {
 #s-experience {
   background-color: #151515;
   color: #fff;
-  cursor: none;
   padding: 96px 48px;
 }
 @media screen and (max-width: 992px) {
@@ -479,9 +483,7 @@ header .grid-layout nav .nav-list li a:hover {
   background-color: #111;
   border-left: 4px solid #111;
 }
-#s-experience .grid-layout #experience .option-experience > div:hover {
-  cursor: pointer;
-}
+
 #s-experience .grid-layout #experience .option-experience > div h3 {
   font-size: 1.8rem;
   font-weight: 400;
@@ -880,9 +882,7 @@ footer div {
   font-weight: 400;
 }
 
-.hg {
-  color: #986dff; 
-}
+
 
 .QurbCare {
   border-top-right-radius: 10px;
@@ -899,29 +899,23 @@ footer div {
 */
 
 
-.cursor {
-  --size: 8px;
-  height: var(--size);
-  width: var(--size);
-  border-radius: 50%;
-  position: absolute;
-  z-index: 99999999999;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  cursor: none; /* Move cursor: none here */
-}
-
-.cursor.cursor-bull {
-  background: #986dff;
-  transition: width 0.2s, height 0.2s;
-}
-
-
-.cursor-bull.active {
-  --size: 8px; /* Change this to a non-zero value */
-}
 
 .hi {
   height: 50px;
   width: 50px;
+}
+
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  padding: 0.3rem;
+  background-color: #fff;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  z-index: 999;
+  transition: transform 0.3s ease;
+}
+
+a:hover ~ .cursor {
+  transform:translate(-50%, -50%) scale(8);
 }
