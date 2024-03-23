@@ -75,7 +75,7 @@ header {
   -webkit-backdrop-filter: blur(24px);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   z-index: 998;
-  width: 60%;
+  width: 70%;
   border-radius: 45px;
   position: fixed;
   margin-top: 20px;
@@ -210,6 +210,8 @@ header .grid-layout nav .nav-list li a:hover {
   }
   .mobile-menu {
     display: block;
+    justify-content: center;
+    align-items: center;
   }
 }
 #s-home {
@@ -495,7 +497,7 @@ header .grid-layout nav .nav-list li a:hover {
   }
 }
 #s-experience .grid-layout #experience .option-experience .activeExperience {
-  border-left: 4px solid #38b1cf;
+  border-left: 3px solid #38b1cf;
   color: #38b1cf;
 }
 #s-experience .grid-layout #experience .option-experience .activeExperience h3 {
@@ -504,10 +506,7 @@ header .grid-layout nav .nav-list li a:hover {
 #s-experience .grid-layout #experience .option-experience > div {
   padding: 24px 32px;
   text-align: left;
-  background-color: rgba(41, 40, 40, 0.2);
-  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  background-color: #151515;
 }
 
 #s-experience .grid-layout #experience .option-experience > div h3 {
@@ -582,10 +581,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-projects .grid-layout #projects > article {
-  background-color: rgba(58, 56, 56, 0.2);
-  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  background-color: #151515;
   height: auto;
   padding: 32px;
   margin: 8px;
@@ -705,10 +701,7 @@ header .grid-layout nav .nav-list li a:hover {
   margin: 24px 0px;
 }
 #s-hobbies .grid-layout #services article {
-  background-color: rgba(58, 56, 56, 0.2);
-  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);  height: auto;
+  background-color: #151515;
   padding: 32px;
   margin: 8px;
   flex-basis: calc(33% - 20px);
@@ -1018,4 +1011,11 @@ footer div {
   .face, .eye, .eyes {
     display: none; /* hide eyes on small devices */
   }
+}
+
+
+.ka {
+  color: #9ca3af;
+  position: relative;
+  font-size: 1.8rem;
 }
