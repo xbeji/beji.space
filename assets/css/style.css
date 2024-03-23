@@ -456,7 +456,7 @@ header .grid-layout nav .nav-list li a:hover {
   border-color: #38b1cf;
 }
 #s-experience {
-  background-color: #151515;
+  background-color: #111;
   color: #fff;
   padding: 96px 48px;
 }
@@ -681,7 +681,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 #s-hobbies {
   padding: 96px 48px;
-  background-color: #151515;
+  background-color: #111;
 }
 @media screen and (max-width: 992px) {
   #s-hobbies {
@@ -842,7 +842,7 @@ header .grid-layout nav .nav-list li a:hover {
 footer {
   width: 100%;
   height: auto;
-  background-color: #151515;
+  background-color: #111;
   color: #fff;
   padding: 24px 0px;
 }
