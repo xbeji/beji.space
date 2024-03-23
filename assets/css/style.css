@@ -75,7 +75,7 @@ header {
   -webkit-backdrop-filter: blur(24px);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   z-index: 998;
-  width: 70%;
+  width: 80%;
   border-radius: 45px;
   position: fixed;
   margin-top: 20px;
@@ -86,9 +86,6 @@ header {
   margin-right: auto; /* Center horizontally */
 }
 @media screen and (max-width: 992px) {
-  .face {
-    display: none;
-  }
   header {
     padding: 0px 24px;
   }
