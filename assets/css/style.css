@@ -86,6 +86,9 @@ header {
   margin-right: auto; /* Center horizontally */
 }
 @media screen and (max-width: 992px) {
+  .face {
+    display: none;
+  }
   header {
     padding: 0px 24px;
   }
@@ -173,6 +176,9 @@ header .grid-layout nav .nav-list li a:hover {
   transform: rotate(45deg) translate(-5px, -5px);
 }
 @media screen and (max-width: 992px) {
+  .face {
+    display: none;
+  }
   body {
     overflow-x: hidden;
   }
@@ -212,6 +218,9 @@ header .grid-layout nav .nav-list li a:hover {
   position: relative;
 }
 @media screen and (max-width: 992px) {
+  .face {
+    display: none;
+  }
   #s-home {
     padding: 100px 20px 0px 20px;
   }
@@ -225,6 +234,9 @@ header .grid-layout nav .nav-list li a:hover {
   width: 100%;
 }
 @media screen and (max-width: 992px) {
+  .face {
+    display: none;
+  }
   #s-home .grid-layout #home {
     padding: 0px;
   }
@@ -234,6 +246,9 @@ header .grid-layout nav .nav-list li a:hover {
   flex-direction: column;
 }
 @media screen and (max-width: 992px) {
+  .face {
+    display: none;
+  }
   #s-home .grid-layout #home #home-container-text {
     display: flex;
     flex-direction: column;
@@ -251,6 +266,9 @@ header .grid-layout nav .nav-list li a:hover {
   font-weight: 500;
 }
 @media screen and (max-width: 992px) {
+  .face {
+    display: none;
+  }
   #s-home .grid-layout #home #home-container-text h1 {
     font-size: 3.2rem;
   }
@@ -301,6 +319,9 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 @media screen and (max-width: 1200px) {
+  .face {
+    display: none;
+  }
   #s-home .grid-layout #home #logo {
     display: none;
   }
@@ -351,6 +372,9 @@ header .grid-layout nav .nav-list li a:hover {
   }
 }
 @media screen and (max-width: 768px) {
+  .face {
+    display: none;
+  }
   #s-about .grid-layout > div #creator-photo {
     height: 300px;
   }
@@ -581,6 +605,9 @@ header .grid-layout nav .nav-list li a:hover {
   }
 }
 @media screen and (max-width: 768px) {
+  .face {
+    display: none;
+  }
   #s-projects .grid-layout #projects > article {
     flex-basis: calc(100% - 20px);
   }
@@ -698,6 +725,9 @@ header .grid-layout nav .nav-list li a:hover {
   }
 }
 @media screen and (max-width: 768px) {
+  .face {
+    display: none;
+  }
   #s-hobbies .grid-layout #services article {
     flex-basis: calc(100% - 20px);
   }
@@ -920,4 +950,72 @@ footer div {
 
 .cc:hover ~ .cursor {
   transform:translate(-50%, -50%) scale(8);
+}
+
+
+.face {
+  position: relative;
+  width: 450px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: #ffcc00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face::before {
+  content: "";
+  position: absolute;
+  top: 180px;
+  width: 150px;
+  margin-top: 50px;
+  height: 70px;
+  background: #b57700;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  transition: 0.5s;
+}
+
+.face:hover::before {
+  top: 210px;
+  width: 150px;
+  height: 20px;
+  background: #b57700;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.eyes {
+  position: relative;
+  top: -40px;
+  display: flex;
+}
+
+.eyes .eye {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: block;
+  background: #fff;
+  margin: 0 15px;
+  border-radius: 50%;
+}
+
+.eyes .eye::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: #333;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .face, .eye, .eyes {
+    display: none; /* hide eyes on small devices */
+  }
 }
