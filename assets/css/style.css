@@ -12,7 +12,7 @@
   font-family: "Archivo";
 }
 ::selection {
-  background-color: #986dff;
+  background-color: #38b1cf;
   color: #fff;
 }
 ul,
@@ -51,7 +51,7 @@ body {
   font-family: "Archivo";
   background-color: #fff;
   overflow-x: hidden;
-  /*cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="%23986dff" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
+  /*cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="%2338b1cf" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
 */}
 html {
   scroll-behavior: smooth;
@@ -64,7 +64,7 @@ html {
   background-color: #111;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #986dff;
+  background-color: #38b1cf;
   border-radius: 2px;
 }
 header {
@@ -130,7 +130,7 @@ header .grid-layout nav .nav-list li a::after {
   height: 1px;
   bottom: -7px;
   left: 0;
-  background: linear-gradient(270deg, #986dff 0%, #17161d 100%);
+  background: linear-gradient(270deg, #38b1cf 0%, #17161d 100%);
   transform-origin: bottom right;
   transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
 }
@@ -274,7 +274,7 @@ header .grid-layout nav .nav-list li a:hover {
   }
 }
 #s-home .grid-layout #home #home-container-text h1 span {
-  color: #986dff;
+  color: #38b1cf;
 }
 #s-home .grid-layout #home #home-container-text p {
   color: #9ca3af;
@@ -285,7 +285,7 @@ header .grid-layout nav .nav-list li a:hover {
   line-height: 160%;
 }
 #s-home .grid-layout #home #home-container-text a {
-  background: #986dff;
+  background: #38b1cf;
   color: #fff;
   backdrop-filter: blur(10px);
   padding: 20px 32px;
@@ -418,7 +418,7 @@ header .grid-layout nav .nav-list li a:hover {
 #s-about .grid-layout > div div:nth-child(2) h4 {
   font-size: 2rem;
   font-weight: 500;
-  color: #986dff;
+  color: #38b1cf;
 }
 #s-about .grid-layout > div div:nth-child(2) p {
   font-size: 1.8rem;
@@ -453,7 +453,7 @@ header .grid-layout nav .nav-list li a:hover {
   }
 }
 #s-about .grid-layout > div div:nth-child(2) nav ul a:hover {
-  border-color: #986dff;
+  border-color: #38b1cf;
 }
 #s-experience {
   background-color: #151515;
@@ -472,7 +472,7 @@ header .grid-layout nav .nav-list li a:hover {
   font-weight: 500;
 }
 #s-experience .grid-layout h2 span {
-  color: #986dff;
+  color: #38b1cf;
 }
 #s-experience .grid-layout #experience {
   margin-top: 32px;
@@ -495,8 +495,8 @@ header .grid-layout nav .nav-list li a:hover {
   }
 }
 #s-experience .grid-layout #experience .option-experience .activeExperience {
-  border-left: 4px solid #986dff;
-  color: #986dff;
+  border-left: 4px solid #38b1cf;
+  color: #38b1cf;
 }
 #s-experience .grid-layout #experience .option-experience .activeExperience h3 {
   font-weight: 600;
@@ -545,7 +545,7 @@ header .grid-layout nav .nav-list li a:hover {
   font-size: 2rem;
   margin: 32px 0px;
   font-weight: 500;
-  color: #986dff;
+  color: #38b1cf;
 }
 #s-experience .grid-layout #experience .text-experience p {
   font-size: 2rem;
@@ -570,7 +570,7 @@ header .grid-layout nav .nav-list li a:hover {
   font-weight: 500;
 }
 #s-projects .grid-layout h2 span {
-  color: #986dff;
+  color: #38b1cf;
 }
 #s-projects .grid-layout #projects {
   margin: 24px 0px;
@@ -597,7 +597,7 @@ header .grid-layout nav .nav-list li a:hover {
   height: auto;
 }
 #s-projects .grid-layout #projects > article:hover {
-  border: 1px solid #986dff;
+  border: 1px solid #38b1cf;
 }
 @media screen and (max-width: 1200px) {
   #s-projects .grid-layout #projects > article {
@@ -643,7 +643,7 @@ header .grid-layout nav .nav-list li a:hover {
   background: linear-gradient(270deg, #a6fb98 0%, #17161d 100%);
 }
 #s-projects .grid-layout a {
-  color: #986dff;
+  color: #38b1cf;
   position: relative;
   font-size: 2rem;
   font-weight: 400;
@@ -656,7 +656,7 @@ header .grid-layout nav .nav-list li a:hover {
   height: 1px;
   bottom: -7px;
   left: 0;
-  background: linear-gradient(270deg, #986dff 0%, #17161d 100%);
+  background: linear-gradient(270deg, #38b1cf 0%, #17161d 100%);
   transform-origin: bottom right;
   transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
 }
@@ -696,7 +696,7 @@ header .grid-layout nav .nav-list li a:hover {
   font-weight: 500;
 }
 #s-hobbies .grid-layout h2 span {
-  color: #986dff;
+  color: #38b1cf;
 }
 #s-hobbies .grid-layout #services {
   display: flex;
@@ -717,7 +717,7 @@ header .grid-layout nav .nav-list li a:hover {
   border-radius: 8px;
 }
 #s-hobbies .grid-layout #services article:hover {
-  border: 1px solid #986dff;
+  border: 1px solid #38b1cf;
 }
 @media screen and (max-width: 1200px) {
   #s-hobbies .grid-layout #services article {
@@ -791,7 +791,7 @@ header .grid-layout nav .nav-list li a:hover {
   font-weight: 500;
 }
 #s-education .grid-layout #skills #skills-text h2 span {
-  color: #986dff;
+  color: #38b1cf;
 }
 #s-education .grid-layout #skills #skills-text .changeDescription {
   transition: 2s all ease;
@@ -832,7 +832,7 @@ header .grid-layout nav .nav-list li a:hover {
   transition: 1s all ease;
 }
 #s-education .grid-layout #skills #skills-cards article:hover {
-  border: 1px solid #986dff;
+  border: 1px solid #38b1cf;
 }
 @media screen and (max-width: 768px) {
   #s-education .grid-layout #skills #skills-cards article {
@@ -857,7 +857,7 @@ footer p {
 }
 footer p a {
   font-weight: 500;
-  color: #986dff;
+  color: #38b1cf;
 }
 footer img {
   width: 32px;
@@ -883,7 +883,7 @@ footer div {
   margin-left: 8px;
   opacity: 1;
   animation: blink 1s infinite;
-  color: #986dff;
+  color: #38b1cf;
 }
 @keyframes blink {
   0%,

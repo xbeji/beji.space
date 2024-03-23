@@ -1,6 +1,6 @@
 $font-main: "Archivo";
 
-$color-main: #986dff;
+$color-main: #38b1cf;
 
 $color-white: #ffffff;
 $color-gray: #9ca3af;
@@ -81,7 +81,7 @@ $gap-9: 128px;
     height: 1px;
     bottom: -7px;
     left: 0;
-    background: linear-gradient(270deg, #986dff 0%, #17161d 100%);
+    background: linear-gradient(270deg, #38b1cf 0%, #17161d 100%);
     transform-origin: bottom right;
     transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
   }
@@ -100,7 +100,7 @@ $gap-9: 128px;
   border: 1px solid $bg-main;
   transition: 1s all ease;
   &:hover {
-    border: 1px solid #986dff;
+    border: 1px solid #38b1cf;
   }
 
   @include responsive-desktop {

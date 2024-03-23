@@ -82,10 +82,6 @@ hoverChangeDescription(
   "Certified by AlFaisal University, in Innovation Models."
 );
 hoverChangeDescription(
-  ".uos",
-  "Certified by The University of Macquarie, in Creating Innovation."
-);
-hoverChangeDescription(
   ".dmi",
   "Certified by The Digital Marketing Institute, in Digital Strategy and Business Opportunity, Digital Channel Planning and E- Commerce Strategy, and Digital Leadership and Digital Strategy Execution."
 );
