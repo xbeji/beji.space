@@ -1011,6 +1011,9 @@ footer div {
   .face, .eye, .eyes {
     display: none; /* hide eyes on small devices */
   }
+  .cursor {
+    display: none;
+  }
 }
 
 
