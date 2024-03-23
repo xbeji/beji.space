@@ -1,14 +1,9 @@
-@media (hover: none) {
-  .cursor {
-    display: none !important;
-  }
-}
+
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  cursor: none;
   font-family: "Archivo";
 }
 ::selection {
@@ -207,8 +202,11 @@ header .grid-layout nav .nav-list li a:hover {
   }
   .mobile-menu {
     display: block;
-    justify-content: center;
-    align-items: center;
+    text-align: right;
+    position: absolute; /* Position the menu absolutely */
+    top: 50%; /* Align the top of the menu to the middle of the parent container */
+    right: 0; /* Align it to the right side of the parent container */
+    transform: translateY(-50%); /* Vertically center the menu */
   }
 }
 #s-home {
@@ -925,17 +923,6 @@ footer div {
 .hi {
   height: 50px;
   width: 50px;
-}
-
-.cursor {
-  pointer-events: none;
-  position: fixed;
-  padding: 0.3rem;
-  background-color: #fff;
-  border-radius: 50%;
-  mix-blend-mode: difference;
-  z-index: 999;
-  transition: transform 0.3s ease;
 }
 
 .cc:hover ~ .cursor {
