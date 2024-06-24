@@ -10,26 +10,45 @@ typeWrite(document.querySelector(".typewriter"));
 
 hoverChangeExperience(
   ".QurbCare",
-  `In my role as a CFO, I have successfully overseen financial operations at QurbCare. My responsibilities included financial strategy development, budgeting, financial analysis, and risk management. I have a proven track record of effectively managing finances to drive profitability and sustainable growth.`,
-  "Chief Financial Officer",
+  `<ul>
+  <li>Assisted in the development and execution of financial strategies.</li>
+  <li>Conducted financial analysis and risk assessments to inform strategic planning.</li>
+  <li>Supported budgeting and forecasting processes to ensure financial stability.</li>
+  <li>Advised on cost-saving initiatives.</li>
+  <li>Collaborated with management to align financial goals with overall business objectives.</li>
+  <li>Ensured compliance with financial regulations and standards.</li>
+</ul>
+`,
+  "Financial Advisor",
   "QurbCare",
   "Sep 2023 - Present"
 );
 
 hoverChangeExperience(
   ".Google",
-  `As the Public Relations Responsible of our GDSC club, I've been dedicated to boosting our club's image and fostering key relationships. My focus on PR strategies has helped enhance our visibility, reputation, and collaboration within the tech community at our university.`,
+  `<ul>
+  <li>&ndash; Enhanced the club's visibility and reputation within the university and tech community.</li>
+  <li>&ndash; Developed and implemented effective PR strategies to foster key relationships.</li>
+  <li>&ndash; Organized events and initiatives to promote the club's activities and engage members.</li>
+  <li>&ndash; Managed communication channels to ensure consistent and impactful messaging.</li>
+  <li>&ndash; Collaborated with other university clubs and external partners for joint events and projects.</li>
+  <li>&ndash; Supported the leadership team in strategic planning and community outreach.</li>
+</ul>`,
   "Public Relations Responsible",
   "GDSC, Imam Abdulrahman bin Faisal University",
   "Sep 2023 - Present"
 );
 
 hoverChangeExperience(
-  ".CBA",
-  `As an Executive in the Accounting Committee, I've played a key role in executive-level planning, event management, and promoting executive skills development. I'm committed to our club's growth and success in fostering leadership education and networking opportunities for our members.`,
-  "Executive",
-  "Accounting Committee, Imam Abdulrahman bin Faisal University",
-  "Sep 2023 - Present"
+  ".ghelaf",
+  `<ul>
+      <li> &ndash; Coordinated with different departments to ensure smooth workflow.</li>
+      <li> &ndash; Managed logistics and improved daily operational efficiency.</li>
+      <li> &ndash; Contributed to strategic planning and problem-solving.</li>
+      <li> &ndash; Developed strong organizational, analytical, and communication skills.</li></ul>`,
+  "Operations Intern",
+  "Ghelaf Almehan",
+  "2024 - Present"
 );
 
 
