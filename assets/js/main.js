@@ -11,12 +11,12 @@ typeWrite(document.querySelector(".typewriter"));
 hoverChangeExperience(
   ".QurbCare",
   `<ul>
-  <li>Assisted in the development and execution of financial strategies.</li>
-  <li>Conducted financial analysis and risk assessments to inform strategic planning.</li>
-  <li>Supported budgeting and forecasting processes to ensure financial stability.</li>
-  <li>Advised on cost-saving initiatives.</li>
-  <li>Collaborated with management to align financial goals with overall business objectives.</li>
-  <li>Ensured compliance with financial regulations and standards.</li>
+  <li>&ndash; Assisted in the development and execution of financial strategies.</li>
+  <li>&ndash; Conducted financial analysis and risk assessments to inform strategic planning.</li>
+  <li>&ndash; Supported budgeting and forecasting processes to ensure financial stability.</li>
+  <li>&ndash; Advised on cost-saving initiatives.</li>
+  <li>&ndash; Collaborated with management to align financial goals with overall business objectives.</li>
+  <li>&ndash; Ensured compliance with financial regulations and standards.</li>
 </ul>
 `,
   "Financial Advisor",
